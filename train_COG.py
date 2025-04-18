@@ -396,11 +396,11 @@ def main():
         for out in outs:
             root_data_path = './dataset'
             if args.save_best_type == 0:
-                data_split_path = root_data_path + '/Setting/' + setting + '/All/' + out
+                data_split_path = root_data_path + '/setting/' + setting + '/All/' + out
             elif args.save_best_type == 1:
-                data_split_path = root_data_path + '/Setting_f1/' + setting + '/All/' + out
+                data_split_path = root_data_path + '/setting_f1/' + setting + '/All/' + out
             elif args.save_best_type == 2:
-                data_split_path = root_data_path + '/Setting_jc/' + setting + '/All/' + out
+                data_split_path = root_data_path + '/setting_jc/' + setting + '/All/' + out
             best_test_roc_auc, best_test_f1, best_test_jaccard, \
             best_test_acc, correspond_test_precision, correspond_test_recall, \
             correspond_test_fpr, correspond_test_tpr, correspond_test_video_preds,correspond_test_video_labels, correspond_test_video_gest_labels, correspond_test_video_names, correspond_test_video_lengths, \
