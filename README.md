@@ -76,7 +76,7 @@ Besides results at frame level, to ensure an explicit and fair comparison with t
 
 ### Ablation study
 
-You can run some ablation studies in [ablation_hyp.sh](./ablation_hyp.sh) to find better hyperparameters. And find every module like MSTR, GVR in [models.py](models.py).
+You can run some ablation studies in [ablation_hyp.sh](./ablation_hyp.sh) to find better hyperparameters and find each module like MSTR, GVR in [models.py](models.py).
 
 ## Results
 
