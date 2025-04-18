@@ -1,8 +1,6 @@
-![banner](assets/mast3r.jpg)
 
 Official implementation of `Think Step by Step: Chain-of-Gesture Prompting for  Error Detection in Robotic Surgical Videos`  
-[[COG arxiv](https://arxiv.org/abs/2406.19217)]  
-[[IEEE link](https://ieeexplore.ieee.org/document/10750058)]
+[[COG arxiv](https://arxiv.org/abs/2406.19217)] [[IEEE link](https://ieeexplore.ieee.org/document/10750058)]
 
 ![Motivation](assets/motiv.jpg)
 
@@ -58,8 +56,9 @@ conda env create -f environment.yml
 In this section, we present a short demonstration to get started with training COG.
 
 ### Datasets
-# download and prepare the dataset
-We download the original data and extended error labels according to [[Kay Hutchinson et al.](https://github.com/UVA-DSA/ExecProc_Error_Analysis)]. [Click here to view the LOSO folder](./dataset/setting_f1/LOSO)
+### Download and prepare the dataset
+We download the original data and extended error labels according to [[Kay Hutchinson et al.](https://github.com/UVA-DSA/ExecProc_Error_Analysis)]. 
+All data under leave-one-user-out setting are in the [LOSO folder](./dataset/setting_f1/LOSO).
 
 ### Train the model
 ```bash
@@ -76,10 +75,10 @@ You can run some ablation studies in [Ablation](./ablation_hyp.sh) to find bette
 ## Results
 
 ### Comparison with other methods and ablation of each module 
-(assets/main_results.png)
+[](assets/main_results.png)
 
 ### Visualization
-(assets/vis.jpg)
+[](assets/vis.jpg)
 
 
 
