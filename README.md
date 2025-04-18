@@ -11,6 +11,8 @@ Previous methods detect errors with two separate parts: gesture recognition and 
 
 ![High level overview of COG's architecture](assets/cog_archi.jpg)
 
+## Citation
+If the paper and code from COG help your research, we kindly ask you to give a citation to our paper ❤️. Additionally, if you appreciate our work and find this repository useful, giving it a star ⭐️ would be a wonderful way to support our work. Thank you very much.
 ```bibtex
 @ARTICLE{10750058,
   author={Shao, Zhimin and Xu, Jialang and Stoyanov, Danail and Mazomenos, Evangelos B. and Jin, Yueming},
