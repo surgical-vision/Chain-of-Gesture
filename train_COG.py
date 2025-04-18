@@ -394,7 +394,7 @@ def main():
             outs = out1
 
         for out in outs:
-            root_data_path = '~/dataset'
+            root_data_path = './dataset'
             if args.save_best_type == 0:
                 data_split_path = root_data_path + '/Setting/' + setting + '/All/' + out
             elif args.save_best_type == 1:
