@@ -1,10 +1,13 @@
+<h2 align="center">Think Step by Step: Chain-of-Gesture Prompting for  Error Detection in Robotic Surgical Videos</h2>
 
-Official implementation of `Think Step by Step: Chain-of-Gesture Prompting for  Error Detection in Robotic Surgical Videos`  
-[[COG arxiv](https://arxiv.org/abs/2406.19217)] [[IEEE link](https://ieeexplore.ieee.org/document/10750058)]
+Official implementation of [[COG arxiv](https://arxiv.org/abs/2406.19217)] [[IEEE link](https://ieeexplore.ieee.org/document/10750058)]
 
-![Motivation](assets/motiv.jpg)
+## Motivation
 
 Previous methods detect errors with two separate parts: gesture recognition and error detection for each type of gesture. We propose an end-to-end Chain-of-Gesture prompting framework to capture complex visual reasoning processes with two reasoning modules: Gestural-Visual reasoning and Multi-scale Temporal Reasoning.
+![Motivation](assets/motiv.jpg)
+
+## Architecture
 
 ![High level overview of COG's architecture](assets/cog_archi.jpg)
 
@@ -75,10 +78,10 @@ You can run some ablation studies in [Ablation](./ablation_hyp.sh) to find bette
 ## Results
 
 ### Comparison with other methods and ablation of each module 
-[](assets/main_results.png)
+![Main Results](assets/main_results.png)
 
 ### Visualization
-[](assets/vis.jpg)
+![visualization](assets/vis.jpg)
 
 
 
