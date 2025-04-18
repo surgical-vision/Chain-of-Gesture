@@ -227,7 +227,6 @@ dependencies:
   - zlib=1.2.13=h5eee18b_1
   - zstd=1.5.5=hc292b87_2
   - pip:
-      - clip==1.0
       - ftfy==6.2.3
       - regex==2024.9.11
       - wcwidth==0.2.13
