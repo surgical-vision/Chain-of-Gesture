@@ -53,7 +53,8 @@ cd Chain-of-Gesture
 2. Create the environment, here we show an example using conda.
 
 ```bash
-conda env create -f environment.yml 
+conda env create -f environment.yml
+conda activate sed
 ```
 
 ## Training
