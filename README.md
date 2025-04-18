@@ -55,9 +55,9 @@ cd Chain-of-Gesture
 ```bash
 conda env create -f environment.yml
 conda activate sed
-##Some packages maybe deprecated, some pip install might fail. You can just continue and pip install those packages if you found them missing. 
+## Some packages might be deprecated or fail to install automatically. If that happens, you can manually install them with pip.
 pip install git+https://github.com/openai/CLIP.git
-## go to https://github.com/openai/CLIP for details if you have problems in installing clip.
+## If you encounter issues installing CLIP, refer to the official CLIP repository (https://github.com/openai/CLIP) for troubleshooting and installation guidance.
 ```
 
 ## Training
