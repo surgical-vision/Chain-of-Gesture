@@ -37,7 +37,7 @@ If the paper and code from COG help your research, we kindly ask you to give a c
   - [Prediction postprocessing](#prediction-postprocessing)
   - [Ablation Study](#ablation-study)
 - [Results]()
-  - [Comparison](#Comparison with other methods and ablation of each module)
+  - [Comparison](#comparison-with-other-methods-and-ablation-of-each-module)
   - [Visualization](#visualization)
 
 ## Get Started
