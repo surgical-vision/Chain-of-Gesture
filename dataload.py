@@ -46,9 +46,9 @@ class CustomVideoDataset(Dataset):
 
 # Example usage
 if __name__ == "__main__":
-    #dataset_path = 'D:/shaozhimin/2023SummerIntern/error_detection/dataset/JIGSAWS/Setting_vit32/LOSO/All/1out'
+    dataset_path = './dataset/setting_f1/LOSO'
 
-    #custom_dataset = CustomVideoDataset(root_dir=dataset_path)
+    custom_dataset = CustomVideoDataset(root_dir=dataset_path)
 
     # Example: Access the first video and its corresponding label
     #frames, video_length, e_labels, g_labels, video_name = custom_dataset[0]
