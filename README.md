@@ -63,7 +63,7 @@ In this section, we present a short demonstration to get started with training C
 
 ### Datasets
 ### Download and prepare the dataset
-We download the original data and extended error labels according to [[Kay Hutchinson et al.](https://github.com/UVA-DSA/ExecProc_Error_Analysis)]. 
+We download the original data and extended error labels according to [Kay Hutchinson et al.](https://github.com/UVA-DSA/ExecProc_Error_Analysis). 
 All data under leave-one-user-out setting are in the [LOSO folder](./dataset/setting_f1/LOSO).
 
 ### Train the model
@@ -72,11 +72,11 @@ python train_COG.py -exp COG -t 4 -l 1e-4 -gpu_id cuda:0
 ```
 
 ### Prediction postprocessing
-Besides results at frame level, to ensure an explicit and fair comparison with the state-of-the-art work on surgical error detection (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9812034), we follow its evaluation protocol to generate window-level metrics. Specifically, we apply a 2-second sliding window with a 1.2second stride to the frame-level predictive labels. Within each window, we average the predictions and binarize them using a threshold of 0.5 to generate the window-level predictive labels.
+Besides results at frame level, to ensure an explicit and fair comparison with the state-of-the-art work on [surgical error detection](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9812034), we follow its evaluation protocol to generate window-level metrics. Specifically, we apply a 2-second sliding window with a 1.2second stride to the frame-level predictive labels. Within each window, we average the predictions and binarize them using a threshold of 0.5 to generate the window-level predictive labels.
 
 ### Ablation study
 
-You can run some ablation studies in [Ablation](./ablation_hyp.sh) to find better hyperparameters. And find every module like MSTR, GVR in [models.py](models.py).
+You can run some ablation studies in [ablation_hyp.sh](./ablation_hyp.sh) to find better hyperparameters. And find every module like MSTR, GVR in [models.py](models.py).
 
 ## Results
 
